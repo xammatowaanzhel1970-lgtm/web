@@ -1,0 +1,80 @@
+/* Шрифт */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  height: 100vh;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;          /* исправлено */
+  flex: 1;
+  gap: 16px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: transform .3s ease, filter .3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);        /* исправлено */
+  z-index: 1;
+}
+
+/* Фоны */
+.card-1 {
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.75), rgba(0,0,0,.1)),
+    url("Image.png");
+}
+
+.card-2 {
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.75), rgba(0,0,0,.1)),
+    url("Image-1.png");
+}
+
+.card-3 {
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.75), rgba(0,0,0,.1)),
+    url("Image-2.png");
+}
+
+.card-4 {
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.75), rgba(0,0,0,.1)),
+    url("Image-3.png");
+}
+
+/* Текст */
+h3 {
+  font-size: 38px;
+  text-transform: uppercase;
+  line-height: 38px;
+  letter-spacing: .5px;
+}
+
+h4 {
+  font-size: 12px;
+  text-transform: capitalize;
+  opacity: 0.7;                  /* исправлено */
+  font-weight: 400;
+}
