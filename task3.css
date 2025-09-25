@@ -64,6 +64,11 @@ body {
     url("Image-3.png");
 }
 
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Текст */
 h3 {
   font-size: 38px;
@@ -78,3 +83,4 @@ h4 {
   opacity: 0.7;                  /* исправлено */
   font-weight: 400;
 }
+
