@@ -25,17 +25,18 @@ body {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: end;          /* исправлено */
+  justify-content: end;
   flex: 1;
   gap: 16px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
-  transition: transform .3s ease, filter .3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.05);        /* исправлено */
+  transform: scale(1.05);
   z-index: 1;
 }
 
@@ -64,23 +65,19 @@ body {
     url("Image-3.png");
 }
 
- background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 /* Текст */
 h3 {
   font-size: 38px;
   text-transform: uppercase;
   line-height: 38px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 h4 {
   font-size: 12px;
   text-transform: capitalize;
-  opacity: 0.7;                  /* исправлено */
+  opacity: 0.7;
   font-weight: 400;
 }
+
 
