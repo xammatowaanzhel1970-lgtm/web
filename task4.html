@@ -1,32 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/task4.css">
+    <title>Riverside Hotel</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="task4.css">
 </head>
-
 <body>
-    <header>
-        <a href="task4.html" class="logo">
-            Riverside
-        </a>
-        <nav>
-            <a href="#"> About us</a>
-            <a href="#"> Events</a>
-            <a href="#"> Contact Us</a>
-            <button>book</button>
+    <header class="header">
+        <a href="task4.html" class="logo">Riverside</a>
+        <nav class="nav">
+            <a href="#">About us</a>
+            <a href="#">Events</a>
+            <a href="#">Contact Us</a>
+            <button class="book-btn">Book</button>
         </nav>
         <div class="lang">
-            <img src="images/icons/lang.svg" alt="Логотип">
+            <img src="images/icons/lang.svg" alt="Language">
             <span>En</span>
         </div>
-  </header>
+    </header>
 
+    <section class="hero">
+        <img src="images/hero.png" alt="Hotel view" class="hero-img">
+        <h1>Welcome to Riverside Hotel</h1>
+        <p>Best place to relax and enjoy your vacation</p>
+    </section>
 
-  
-    
-  
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Morbi vel ipsum eu elit cursus gravida.</p>
+                <p>Aliquam erat volutpat. Donec a dui non magna feugiat fermentum. Proin fermentum orci non massa dignissim, ut efficitur sem sagittis.</p>
+                <p>Curabitur sit amet sapien eu sapien interdum feugiat. Integer luctus, risus a tincidunt faucibus, nisl erat mattis metus.</p>
+            </div>
+            <div class="about-img">
+                <img src="images/cards/card-1.png" alt="About us">
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <h2>Our Services</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="images/cards/card-1.png" alt="Service 1">
+                <h3>Luxury Rooms</h3>
+            </div>
+            <div class="card">
+                <img src="images/cards/card-2.png" alt="Service 2">
+                <h3>Restaurant</h3>
+            </div>
+            <div class="card">
+                <img src="images/cards/card-3.png" alt="Service 3">
+                <h3>Spa & Relax</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Name *" required>
+            <input type="text" name="surname" placeholder="Surname *" required>
+            <input type="email" name="email" placeholder="Email *" required>
+            <input type="text" name="city" placeholder="City">
+            <input type="text" name="country" placeholder="Country">
+            <input type="tel" name="phone" placeholder="Phone">
+            <textarea name="message" placeholder="Message *" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-body">
+            <h3>Riverside Hotel</h3>
+            <div class="footer-body-links">
+                <a href="#">Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="footer-social-media">
+                <a href="#"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="images/icons/youtube.svg" alt="YouTube"></a>
+            </div>
+            <div class="rights">
+                <p>© 2025 Riverside Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
