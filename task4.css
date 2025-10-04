@@ -219,8 +219,6 @@ button {
     text-transform: uppercase;
 }
 
-/* --- АДАПТИВ --- */
-
 @media screen and (max-width: 992px) {
     .burger-btn {
         display: block;
@@ -625,5 +623,6 @@ footer {
         font-size: 22px;
     }
 }
+
 
 
