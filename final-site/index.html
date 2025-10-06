@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">INFRA<span>Studio</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Портфолио</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">INFRA Studio</h1>
+                <p class="hero__subtitle">Мир идей, где технологии становятся искусством</p>
+                <div class="hero__buttons">
+                    <a href="#portfolio" class="btn btn--primary">Мои проекты и решения</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                    <img src="images/hero-card.png" alt="INFRA Studio — карточка Анжелики Хамматовой" loading="lazy">
+            </div>
+
+                    <div class="about__content">
+                        <h2 class="section-title">Вдохновение</h2>
+                        <p class="about__text">Я — Анжелика Хамматова, промпт-инженер и создатель AI-контента. Моё вдохновение — нейросети, 
+          которые умеют видеть, чувствовать и превращать мысль в форму. 
+          INFRA Studio — это пространство, где рождаются смыслы, оживают идеи и соединяются технологии с искусством.</p>
+                        <p class="about__text"> Моя работа — не просто тексты, видео и визуалы. Это энергия, которая несёт идею, 
+          характер бренда и эмоцию зрителя. Каждая деталь — результат диалога между логикой кода и интуицией творчества.</p>
+                        <p class="about__text">Я знаю, что нейросети — не замена человеку, а инструмент расширения восприятия. 
+          Они помогают увидеть больше, глубже, тоньше. 
+          Именно поэтому я создаю контент, который звучит сердцем, дышит вдохновением и работает на результат.</p>
+                        <p class="about__text">В INFRA Studio я объединяю эстетику, стратегию и свет — чтобы помочь идеям обрести голос, 
+          а брендам — душу. Мир меняется, и я здесь, чтобы сделать его красивее, умнее и теплее.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <i class="fa-regular fa-sun"></i>&#8194
+                                <span>Уникальный визуальный стиль и глубина образов</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-sun"></i>&#8194
+                                <span>Симбиоз нейросетей и человеческого вдохновения</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-sun"></i>&#8194
+                                <span>Смыслы, оживающие через эстетику и технологии</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-sun"></i>&#8194
+                                <span>Искусство, созданное с любовью и интуицией</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="menu">
+    <div class="container">
+      <h2 class="section-title">Портфолио</h2>
+    <div class="menu__grid">
+
+      <!-- Карточка 1 -->
+    <div class="menu-item">
+        <img src="images/cards/card1.jpg" alt="Видеоролики" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">Видеоролики и рилсы</h3>
+        </div>
+        <p class="menu-item__description">
+          Создание видео, рилсов, сюжетных мини-клипов с помощью нейросетей (Runway, Kling, Minimax, Veo).
+        </p>
+      </div>
+
+      <!-- Карточка 2 -->
+    <div class="menu-item">
+        <img src="images/cards/card2.jpg" alt="AI-изображения" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">AI-изображения</h3>
+    </div>
+        <p class="menu-item__description">
+          Создание визуалов, иллюстраций и артов для соцсетей и книг в MidJourney, Higgsfield Soul и Nano Banana.
+        </p>
+    </div>
+
+      <!-- Карточка 3 -->
+    <div class="menu-item">
+        <img src="images/cards/card3.jpg" alt="Тексты и сценарии" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">Тексты и сценарии</h3>
+    </div>
+        <p class="menu-item__description">
+          Продающие тексты, сценарии, описания и storytelling с использованием ChatGPT и DeepSeek.
+        </p>
+    </div>
+
+      <!-- Карточка 4 -->
+    <div class="menu-item">
+        <img src="images/cards/card4.jpg" alt="Cоздание и ведение групп в соцсетях" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">Оформление страниц</h3>
+    </div>
+        <p class="menu-item__description">
+          Создание, оформление и ведение групп и каналов в VK, Telegram и Instagram с нуля.
+        </p>
+    </div>
+       
+      <!-- Карточка 5 -->
+    <div class="menu-item">
+        <img src="images/cards/card5.jpg" alt="Cоздание чат-ботов" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">Создание чат-ботов в Телеграм и ВК</h3>
+    </div>
+        <p class="menu-item__description">
+          Создание, чат-ботов в VK, Telegram и Instagram с нуля, создание сайтов, лендингов
+        </p>
+    </div>
+
+      <!-- Карточка 6 -->
+    <a href="https://t.me/AnzhelNikolaeva" target="_blank" rel="noopener" class="menu-item menu-item--link">
+        <img src="images/cards/card6.jpg" alt="Мои сертификаты" class="menu-item__image">
+    <div class="menu-item__header">
+          <h3 class="menu-item__title">Мои сертификаты</h3>
+    </div>
+       <p class="menu-item__description">
+        Подтверждённые знания и практика: курсы по нейросетям, видео-контенту, SMM и разработке сайтов.
+      </p>
+    </a>
+
+    </div>
+
+     <div class="portfolio__button">
+    <a href="https://t.me/AnzhelNikolaeva"
+       target="_blank"
+       rel="noopener"
+       class="btn btn--primary">
+       Смотреть полное портфолио
+    </a>
+
+    </div>
+
+     </section>
+
+        <section id="reviews" class="reviews">
+    <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+    <div class="reviews__grid">
+
+      <!-- Отзыв 1 -->
+    <div class="review">
+        <img src="images/cards/avatar1.jpg" alt="Елена Худан" class="review__avatar">
+        <p class="review__text">Анжелика создала мою группу в ВКонтакте и  живое оформление для моей страницы. Всё стильно, тепло и с душой! И до сих пор бесплатно наполняет ее моим контентом, как жест доброй воли. Широкой Души человек!</p>
+        <span class="review__name">Елена Худан</span>
+    </div>
+
+      <!-- Отзыв 2 -->
+    <div class="review">
+        <img src="images/cards/avatar2.jpg" alt="Марина Исламова" class="review__avatar">
+        <p class="review__text">Благодаря Анжелике я получила волшебные фото и видео — всё выглядело естественно и профессионально.</p>
+        <span class="review__name">Марина Исламова</span>
+    </div>
+
+      <!-- Отзыв 3 -->
+    <div class="review">
+        <img src="images/cards/avatar3.jpg" alt="Елена Матыцина" class="review__avatar">
+        <p class="review__text">Анжелика сделала мне группу в ВКонтакте. Всё продумано, чётко и со вкусом. Пунктуальность и порядочность.</p>
+        <span class="review__name">Елена Матыцина</span>
+    </div>
+
+       </div>
+     </div>
+     </section>
+
+        </section>
+
+        <section id="contacts" class="contacts">
+  <div class="container">
+    <div class="contacts__inner">
+      <div class="contacts__info">
+        <h2 class="section-title">Контакты</h2>
+
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt contact-icon"></i>
+          <span>Россия</span>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-phone contact-icon"></i>
+          <a href="tel:+79954738987" class="contact-link">+7 995 473-89-87</a>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-envelope contact-icon"></i>
+          <a href="mailto:ahammatowa@yandex.ru" class="contact-link">ahammatowa@yandex.ru</a>
+        </div>
+
+        <div class="social-links">
+  <a href="https://vk.com/id119789193" target="_blank" aria-label="VK">
+    <img src="images/icons/VK.png" alt="VK" class="social-icon">
+  </a>
+  <a href="https://t.me/AnzhelikaNikolae" target="_blank" aria-label="Telegram">
+    <img src="images/icons/Telegram.png" alt="Telegram" class="social-icon">
+  </a>
+  <a href="https://tenchat.ru/4419758" target="_blank" aria-label="TenChat">
+  <img src="images/icons/TenChat.png" alt="TenChat" class="social-icon">
+
+</a>
+
+  <a href="https://www.instagram.com/an_zhelika8434/" target="_blank" aria-label="Instagram">
+    <img src="images/icons/instagram.png" alt="Instagram" class="social-icon">
+  </a>
+  <a href="mailto:ahammatowa@yandex.ru" aria-label="Email">
+    <img src="images/icons/Email.png" alt="Email" class="social-icon">
+  </a>
+</div>
+
+          <a href="https://t.me/AnzhelikaNikolae" target="_blank" class="btn-telegram">
+            <i class="fab fa-telegram-plane"></i> Написать мне
+          </a>
+        </div>
+      </div>
+
+     <div class="contacts__map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2287.981742238159!2d57.27532930091664!3d55.00848508548924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43dbeaf27eb35a2b%3A0x407a6a12cd59f322!2z0JDRiNCwLCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1759710945781!5m2!1sru!2sru"
+    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">INFRA<span>Studio</span></a>
+                    <p class="footer__text">Мир идей, где технологии становятся искусством</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главное</a></li>
+                        <li><a href="#portfolio" class="footer__link">Портфолио</a></li>
+                        <li><a href="#about" class="footer__link">обо мне</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
